@@ -36,6 +36,8 @@ const config7 = [['(', ')'], ['[', ']'], ['{', '}'], ['|', '|']];
     }
         if(a!=b || c!=d || e!=f || g%2==1){
             return false;
+        }else{
+            return true;
         }
     }
     
