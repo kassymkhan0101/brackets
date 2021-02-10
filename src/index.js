@@ -6,10 +6,11 @@ const config4 = [['|', '|']];
 const config5 = [['(', ')'], ['|', '|']];
 const config6 = [['1', '2'], ['3', '4'], ['5', '6'], ['7', '7'], ['8', '8']];
 const config7 = [['(', ')'], ['[', ']'], ['{', '}'], ['|', '|']];
-    if(bracketsConfig == config1){
-        return true;
-    }else{
+    let newstr = str.split("");
+    if(newstr % 2 == 1){
         return false;
+    }else{
+        return true;
     }
     
     
