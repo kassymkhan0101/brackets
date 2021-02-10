@@ -12,9 +12,9 @@ const config7 = [['(', ')'], ['[', ']'], ['{', '}'], ['|', '|']];
         for(i=0; i<newstr.length; i++){
             let c = 0;
             let k = 0;
-            if(newstr[i]== config[0][0]){
+            if(newstr[i]== config1[0][0]){
                 c++;
-            }else if(newstr[i]== config[0][1]){
+            }else if(newstr[i]== config1[0][1]){
                 k++;
                      }
         }
