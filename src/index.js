@@ -14,15 +14,13 @@ const config7 = [['(', ')'], ['[', ']'], ['{', '}'], ['|', '|']];
             let k = 0;
             if(newstr[i]== config1[0][0]){
                 c++;
+                console.log(c);
             }else if(newstr[i]== config1[0][1]){
                 k++;
+                console.log(k)
                      }
         }
-        if( c == k){
-            return true;
-        }else{
-            return false
-        }
+        
     }
     
 
