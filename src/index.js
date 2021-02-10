@@ -1,3 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
-  // your solution
+  for(i=0; i<bracketsConfig.length; i++){
+      console.log(bracketsConfig[i])
+  }
 }
