@@ -7,7 +7,7 @@ const config5 = [['(', ')'], ['|', '|']];
 const config6 = [['1', '2'], ['3', '4'], ['5', '6'], ['7', '7'], ['8', '8']];
 const config7 = [['(', ')'], ['[', ']'], ['{', '}'], ['|', '|']];
     let newstr = str.split("");
-    if(bracketsConfig == 'config1'){
+    if(bracketsConfig === 'config1'){
         return true;
     }else{
         return false;
