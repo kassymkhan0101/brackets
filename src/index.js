@@ -14,7 +14,7 @@ const config7 = [['(', ')'], ['[', ']'], ['{', '}'], ['|', '|']];
             let k = 0;
             if(newstr[i]== config[0][0]){
                 c++;
-            }else if(newstr[i]== config[0][0]){
+            }else if(newstr[i]== config[0][1]){
                 k++;
                      }
         }
