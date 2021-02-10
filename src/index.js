@@ -9,8 +9,6 @@ const config7 = [['(', ')'], ['[', ']'], ['{', '}'], ['|', '|']];
     let newstr = str.split("");
     if(newstr % 2 == 1){
         return false;
-    }else{
-        return true;
     }
     
     
